@@ -10,10 +10,10 @@ include "Train.php";
 
 // Car::makeNoise();
 // echo "<br><br>";
-///Train
 
-$myTrain1 = new Train("tesla","kaka",50);
+
+
 $myTrain2 = new Train("tesla","kaka",50);
-
 $myTrain2->increaseMileage(240);
 Train::makeNoise();
+var_dump($myTrain2);
